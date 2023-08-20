@@ -16,9 +16,13 @@ pip install -r requirements.txt
 
 # Studying Project
 
-Files:
+**Files:**
 - network/admin.py > network/models.py
-- 
+- network/auth.py
+- network/urls.py (has routes) > network/views.py *(TODO: what are entities in view.py file?)*
+- FRONTEND - frontend/src/components/App.js
+- FRONTEND - frontend/src/components/Profile.js (Route: `/profile/:username/`)
+- FRONTEND - frontend/src/helpers/api.js (All http requests using fetch api)
 
 # TODO:
 
